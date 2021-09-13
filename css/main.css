@@ -1,0 +1,690 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { 
+	font-family: f01;
+	src: url("../font/hel/SFUHelveticaCondensedBold.TTF");
+}
+
+@font-face{
+	font-family: f02;
+	src: url("../font/SFUHelveticaRegular.TTF");
+		
+}
+
+@font-face{
+	font-family: f03;
+	src: url("../font/hel/SFUHelveticaCondensed.TTF");
+		
+}
+
+@font-face{
+	font-family: f04;
+	src: url("../font/hel/SFUHelveticaCondensedLight.TTF");
+		
+}
+
+@font-face{
+	font-family: f05;
+	src: url("../font/Segoeui/Segoe UI.ttf");
+		
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.ndung {
+    display: flex;
+    width: 500vw;
+    height:100%;
+    background-color:orange;
+    overflow-y:hidden;
+    overflow-x:hidden;
+	box-sizing: border-box;
+}
+
+.ndung1 {
+    position: relative;
+    width: 100vw;
+    height: 624px;
+    background-color:antiquewhite;
+    position: relative;
+	box-sizing: border-box;
+}  
+
+.carousel-inner img {
+    width: 100%;
+    height:624px;
+	box-sizing: border-box;
+ }
+
+.menudoc{
+	
+	width: 5%;
+	height: 100%;
+	background-color:orange;
+	position: fixed;
+	padding: 15px;
+	box-sizing: border-box;
+	opacity: 0.6;
+	z-index: 1000;
+	backdrop-filter: blur(5px);
+}
+
+
+.menungang{
+	width: 95%;
+	height: 70px;
+	background-color:transparent;
+	box-sizing: border-box;
+	font-family: f01;
+	float: right;
+	position:absolute;
+	z-index: 100;
+	
+}
+
+.logo{
+	width: 25%;
+	height: 70px;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 80px; 
+}
+
+.tieude{
+	width: 70%;
+	height: 70px;
+	float: right;
+	font-family: f01;
+	padding: 13px 10px 10px 160px;
+	box-sizing: border-box;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 20px 10px 20px;
+  background-color:transparent;
+  cursor:pointer;
+  font-size: 15px;
+  font-family: f01;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color:orange;
+  color:black;
+}
+
+.dropbtn {
+  background-color:transparent;
+  color:black;
+ padding: 10px 30px 10px 30px;
+  font-size: 16px;
+  font-family: f01;
+  border:none;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+	
+	
+	
+}
+
+.dropdown a
+{
+	text-decoration: none;
+	color: black;
+	
+	
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: f01;
+		 border: 2px;
+  border-radius: 5px;
+	
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px 10px 20px;
+  text-decoration: none;
+  display: block;
+	 border: none;
+  border-radius: 5px;
+	
+}
+
+.btn a:hover {
+	text-decoration: none;
+	color: black;	
+}
+.dropdown-content a:hover {
+	background-color:orange;
+	color: black;
+}
+.dropdown a:hover{
+	color: black;
+	text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+	color: black;
+}
+
+.dropdown:hover .dropbtn {
+	background-color:orange;
+	color: black;
+	list-style: none;
+}
+
+/* trang2 */
+
+.nd2 {
+    position: relative;
+    width: 100vw;
+    height:624px;
+    background-color:antiquewhite;
+    position: relative;
+	box-sizing: border-box;
+}  
+
+.gthieu1 {
+    width: 50%;
+    height: 625px;
+	float: left;
+	background-color: white;
+	position: relative;
+	box-sizing: border-box;
+}
+
+
+.ndung2{
+	width: 50%;
+	height: 40px;
+	font-family: f01;
+	color: #0A0A0A;
+	margin: 70px 0px 20px 140px;
+	text-decoration: underline;
+	text-decoration-color:orange;
+	box-sizing: border-box;
+}
+
+.ndung2-1{
+	width: 50%;
+	height: 110px;
+	font-family: f05;
+	color: #0A0A0A;
+	margin: 20px 20px 40px 140px;
+	font-size: 14pt;
+ 	box-sizing: border-box;
+	
+}
+
+/* Style the tab */
+.tab {
+	width: 60%;
+	height: 50px;
+  overflow: hidden;
+  border:none;
+	
+  margin: 20px 20px 10px 140px;
+  background-color:white ;
+  box-sizing: border-box;
+	font-size: 15pt;
+	font-family: f01;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+	box-sizing: border-box;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color:orange;
+  border: none;
+  outline: none;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:orange;
+}
+
+/* Style the tab content */
+.tabcontent {
+  width: 65%;
+  height: 110px;
+  display: none;
+  padding: 20px 11px;
+  border:none;
+  border-top: none;
+  margin: 10px 20px 10px 130px;
+  box-sizing: border-box;
+  font-family: f05;
+font-size: 13pt;
+	
+}
+
+.btn1 {
+  border: none;
+  outline: none;
+  padding: 10px 20px 10px 20px;
+  background-color:orange;
+  cursor:pointer;
+  font-size: 13pt;
+  font-family: f01;
+  border: 2px;
+  border-radius: 5px;
+  box-sizing: border-box;
+	color: aliceblue;
+}
+
+.active, .btn1:hover {
+  background-color:orange;
+  color:#1E1E1E;
+	text-decoration: none;
+}
+
+
+.gthieu2 {
+    width: 50%;
+    height: 100%;
+	float:right;
+	background-color:#D7922F;
+	
+	position: relative;
+	box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+.c-row {
+  width: 25%;
+ height: 100%;
+  content: "";
+  display: table;
+  clear: both;
+  padding: 10px 10px 10px 1px;
+	box-sizing: border-box;
+	float:right;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  width: 100%;
+	height: 23%;
+  padding: 10px 10px 2px 10px;  
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* The expanding image container */
+.c-big{
+ position: relative;
+  display: none;
+float:left;
+ width: 75%;
+height: 100%;
+	box-sizing: border-box;
+	padding: 80px 10px 10px 20px;
+	
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 20px;
+  left: 170px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 75px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/* trang3 */
+
+.nd3 {
+    position: relative;
+    width: 100vw;
+    height:625px;
+    background-color:white;
+    position: relative;
+	box-sizing: border-box;
+} 
+
+.nd3-1 {
+
+	width: 250px;
+	height: 50px;
+	color: black;
+	font-family: f01;
+	font-size: 20pt;
+	margin: 30px 10px 0px 120px;
+	text-decoration: underline;
+	text-decoration-color: orange;
+	box-sizing: border-box;
+}
+
+.nd3-2{
+	font-family: f01;
+	font-size: 14pt;
+} 
+
+.nd3-3{
+	width: 100vw;
+    height: 420px;
+	float: left;
+	position: relative;
+    box-sizing: border-box;
+    margin: 30px 10px 10px 20px;
+}
+
+.nd3-3-1{
+	 width: 22%;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    margin: 20px 15px;
+    box-sizing: border-box;
+    transition: width 2s;
+    position: relative;
+}
+
+.nd3-3-2{
+	 width: 22%;
+    height: 400px;
+    background-size: cover;
+    margin: 20px 15px;
+    box-sizing: border-box;
+    transition: width 2s;
+    position: relative;
+	float:left;
+}
+
+.nd3-3-3{
+	 width: 22%;
+    height: 400px;
+    background-size: cover;
+    margin: 20px 15px;
+    box-sizing: border-box;
+    transition: width 2s;
+    position: relative;
+	float:left;
+}
+
+.nd3-3-4{
+	 width: 22%;
+    height: 400px;
+    background-size: cover;
+    margin: 20px 15px;
+    box-sizing: border-box;
+    transition: width 2s;
+    position: relative;
+	float:left;
+}
+
+.nd3-3-1:hover .overlay {
+  height: 30%;
+}
+
+.nd3-3-2:hover .overlay {
+  height: 25%;
+}
+
+.nd3-3-3:hover .overlay {
+  height: 25%;
+}
+
+.nd3-3-4:hover .overlay {
+  height: 30%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.overlay {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  
+  background-color:orange;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+	font-family: f05;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* trang4 */
+
+.nd4 {
+    position: relative;
+    width: 100vw;
+    height:625px;
+    background-color:white;
+    position: relative;
+	box-sizing: border-box;
+} 
+
+.nd4-1 {
+	width: 300px;
+	height: 40px;
+	color: black;
+	font-family: f01;
+	font-size: 20pt;
+	margin: 50px 10px 0px 120px;
+	text-decoration: underline;
+	text-decoration-color: orange;
+	box-sizing: border-box;
+}
+
+.nd4-2{
+	width: 100vw;
+    height: 420px;
+	float: left;
+	position: relative;
+    box-sizing: border-box;
+}
+.nd4-2-1{
+	width: 30%;
+    height: 420px;
+	float: left;
+	position: relative;
+    box-sizing: border-box;
+	padding: 10px 10px 10px 40px;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 330px;
+  height: 400px;
+  perspective: 1000px;
+	margin: 50px 10px 10px 90px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color:#F1AF32;
+  color: black;
+	padding: 50px 20px 10px 10px;
+}
+
+.flip-card-back {
+  background-color:white;
+  color:black;
+  transform: rotateY(180deg);
+  font-family: f05;
+}
+
+
+/* trang5 */
+
+.nd5 {
+    position: relative;
+    width: 100vw;
+    height:625px;
+    background-color:white;
+    position: relative;
+	box-sizing: border-box;
+} 
+
+.nd5-1 {
+    position: relative;
+    width: 50%;
+    height:625px;
+    background-color:#D9D9D9;
+    position: relative;
+	box-sizing: border-box;
+	float: left;
+} 
+/*Leave Message*/
+.mess{
+    width: 100%;
+    height: 624px;
+    background-color:#FCFBFA;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.mess h1{
+    color: #26262D;
+    font-family:f02;
+    font-size:40pt;
+    position: relative;
+}
+.mess table{
+	
+    font-family: f02;
+    font-size: 15pt;
+    color: #535254;
+}
+.mess table input{
+    width: 100%;
+    height: 30px;
+    border-bottom: 0.1vh solid #FFB702;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: #FCFBFA;
+    margin-top: 10px;
+    margin-bottom: 5vh;
+    font-family: "SegoeUI";
+    font-size: 12pt;
+	cursor: pointer;
+}
+.mess table tr td{
+    margin-bottom: 5vh;
+}
+.mess table input:focus
+{
+	outline: none;
+}
+.mess a:hover{
+    color: #26262D;
+}
+
+.nd5-2 {
+    position: relative;
+    width: 50%;
+    height:625px;
+    background-color:#D9D9D9;
+    position: relative;
+	box-sizing: border-box;
+	float:right;
+} 
+
+
+
+
+
